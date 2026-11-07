@@ -1,0 +1,130 @@
+@media (max-width: 1350px) {
+    .main-navigation {
+        flex-wrap: wrap;
+        gap: 0 20px;
+    }
+    .navigation-links {
+        flex: 1;
+        min-width: 0;
+        gap: 18px;
+        overflow-x: auto;
+    }
+    .delivery-links {
+        justify-content: flex-end;
+        width: 100%;
+        min-height: 32px;
+    }
+    .header-main {
+        gap: 20px;
+    }
+    .search-form {
+        margin-left: 8px;
+    }
+}
+@media (max-width: 900px) {
+    .store-tools, .delivery-button {
+        display: none;
+    }
+    .header-main {
+        flex-wrap: wrap;
+        gap: 16px;
+        padding-block: 20px;
+    }
+    .account-tools {
+        margin-left: auto;
+    }
+    .search-form {
+        order: 3;
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+    .footer-columns {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 32px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        width: calc(100% - 32px);
+    }
+    .announcement-inner {
+        min-height: 32px;
+        font-size: 11px;
+    }
+    .brand {
+        font-size: 27px;
+        width: auto;
+    }
+    .brand-symbol {
+        width: 27px;
+        height: 29px;
+    }
+    .account-tools {
+        gap: 10px;
+    }
+    .account-tools button {
+        font-size: 9px;
+    }
+    .account-icon {
+        width: 22px;
+        height: 24px;
+    }
+    .main-navigation {
+        gap: 0 16px;
+        font-size: 13px;
+    }
+    .category-toggle {
+        gap: 5px;
+        font-size: 12px;
+    }
+    .navigation-links {
+        gap: 16px;
+    }
+    .delivery-links {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .category-column {
+        height: min(380px, 48dvh);
+    }
+    .category-heading {
+        top: -44px;
+        right: 0;
+    }
+    .category-close {
+        width: 44px;
+        height: 44px;
+    }
+    .category-item {
+        padding: 10px 8px;
+        font-size: 14px;
+        word-break: keep-all;
+    }
+    .category-item-arrow {
+        width: 6px;
+        height: 6px;
+        margin-right: 0;
+    }
+    .category-empty {
+        padding: 12px 8px;
+    }
+    .home-content {
+        padding-block: 40px 32px;
+    }
+    .layout-placeholder {
+        margin-top: 28px;
+        padding: 32px 16px;
+    }
+    .layout-placeholder h2 {
+        font-size: 16px;
+    }
+    .footer-columns {
+        gap: 28px 16px;
+    }
+    .customer-center, .footer-project {
+        grid-column: 1 / -1;
+    }
+    .site-footer h2 {
+        margin-bottom: 16px;
+    }
+}

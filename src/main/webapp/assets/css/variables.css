@@ -1,0 +1,11 @@
+:root {
+    --color-ink: #161d24;
+    --color-muted: #69717a;
+    --color-red: #e60020;
+    --color-line: #e9ebee;
+    --color-soft: #f6f7f8;
+    --color-footer-text: #c5c8ce;
+    --content-width: 1280px;
+    --font-family: "Pretendard Variable", Pretendard, "Malgun Gothic", sans-serif;
+    --font-navigation: "SUITE Variable", var(--font-family);
+}

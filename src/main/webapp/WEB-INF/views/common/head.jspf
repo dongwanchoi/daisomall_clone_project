@@ -1,0 +1,20 @@
+<%@ page pageEncoding="UTF-8" %>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="자체 제작 이미지와 Mock 데이터로 체험하는 학습용 다이소몰 클론">
+<title>다이소몰 클론 | 생활의 발견</title>
+<link rel="icon" type="image/svg+xml" href="${pageContext.request.contextPath}/assets/images/favicon.svg">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/variables.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/base.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/layout.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/components.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/responsive.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/commerce.css">
+<script src="${pageContext.request.contextPath}/assets/js/data/mock-repository.js" defer></script>
+<script src="${pageContext.request.contextPath}/assets/js/common/shop-ui.js" defer></script>
+<script src="${pageContext.request.contextPath}/assets/js/common/navigation.js" defer></script>
+<script src="${pageContext.request.contextPath}/assets/js/shop/storefront.js" defer></script>
+<script src="${pageContext.request.contextPath}/assets/js/shop/catalog.js" defer></script>
+<script src="${pageContext.request.contextPath}/assets/js/shop/member.js" defer></script>
+<script src="${pageContext.request.contextPath}/assets/js/shop/orders.js" defer></script>
+<script src="${pageContext.request.contextPath}/assets/js/admin/admin.js" defer></script>

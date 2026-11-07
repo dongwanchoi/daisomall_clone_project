@@ -1,0 +1,83 @@
+# Eclipse shared project metadata (.project, .classpath, .settings) is tracked.
+!/.project
+!/.classpath
+!/.settings/
+!/.settings/**
+# Local workspace and server state
+.metadata/
+.recommenders/
+.externalToolBuilders/
+.settings/org.eclipse.wst.server.core.prefs
+.settings/org.eclipse.wst.server.discovery.prefs
+.settings/org.eclipse.wst.server.ui.prefs
+Servers/
+RemoteSystemsTempFiles/
+.tomcat/
+.servers/
+
+# Build outputs and server-generated files
+/build/
+/bin/
+/out/
+/target/
+/dist/
+*.class
+*.war
+*.ear
+/src/main/webapp/WEB-INF/classes/
+/work/
+/temp/
+/tmp/
+/logs/
+*.log
+*.pid
+*.hprof
+hs_err_pid*
+
+# Dependencies and automated browser caches
+node_modules/
+.cache/
+.playwright/
+playwright-report/
+test-results/
+coverage/
+
+# Credentials and private local overrides
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.credentials/
+credentials.json
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.local.properties
+*.local.json
+*.local.xml
+application-secret.*
+application-private.*
+
+# Editor and OS state
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Original third-party website captures: local reference only, rights unverified.
+/docs/reports/frontend-v0.1-evidence/reference-header-1440.png
+/docs/reports/frontend-v0.1-evidence/reference-category-menu.webp
+
+# External research artifacts do not belong in this source repository.
+/references/
+/artifacts/

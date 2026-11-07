@@ -1,0 +1,62 @@
+<%@ page pageEncoding="UTF-8" %>
+<%
+    Object navigationValue = request.getAttribute("activeNavigation");
+    String navigationKey = navigationValue instanceof String ? (String) navigationValue : "";
+    if (!navigationKey.matches("[a-z-]+")) {
+        navigationKey = "";
+    }
+%>
+<div class="navigation-shell">
+    <nav class="container main-navigation" aria-label="주요 메뉴" data-active-navigation="<%= navigationKey %>">
+        <button id="category-toggle" class="category-toggle" type="button" aria-expanded="false" aria-controls="category-panel">
+            <span class="menu-icon" aria-hidden="true"></span> <span>카테고리</span>
+        </button>
+        <div class="navigation-links">
+            <button class="brand-menu" type="button" data-navigation-key="brand" data-unavailable>
+                <span>브랜드</span>
+                <span class="chevron-down" aria-hidden="true"></span>
+            </button>
+            <button class="season-link" type="button" data-navigation-key="season" data-unavailable>겨울 시즌템</button>
+            <a data-navigation-key="home" href="${pageContext.request.contextPath}/">홈</a>
+            <button type="button" data-navigation-key="new" data-unavailable>신상발견</button>
+            <button type="button" data-navigation-key="open-run" data-unavailable>오픈런</button>
+            <button type="button" data-navigation-key="exhibitions" data-unavailable>기획전</button>
+            <button type="button" data-navigation-key="ranking" data-unavailable>랭킹</button>
+            <button type="button" data-navigation-key="rating" data-unavailable>별점5점</button>
+            <button type="button" data-navigation-key="selling-out" data-unavailable>품절임박</button>
+            <button type="button" data-navigation-key="beauty" data-unavailable>뷰티</button>
+            <button type="button" data-navigation-key="health" data-unavailable>건강식품</button>
+        </div>
+        <div class="delivery-links">
+            <button type="button" data-navigation-key="pickup" data-unavailable>매장픽업</button>
+            <button type="button" data-navigation-key="today-delivery" data-unavailable>오늘배송</button>
+            <button type="button" data-navigation-key="bulk-order" data-unavailable>대량주문</button>
+        </div>
+    </nav>
+    <div class="container category-anchor">
+        <section id="category-panel" class="category-panel" aria-label="전체 카테고리 탐색" data-source="${pageContext.request.contextPath}/assets/mock/categories.json" hidden>
+            <div class="category-heading">
+                <button id="category-close" class="category-close" type="button" aria-label="카테고리 닫기">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <p id="category-load-status" class="category-load-status" role="status">카테고리를 불러오는 중입니다.</p>
+            <button id="category-retry" type="button" hidden>다시 불러오기</button>
+            <div class="category-columns">
+                <section class="category-column" aria-labelledby="category-level-one">
+                    <h2 id="category-level-one" class="visually-hidden">대분류</h2>
+                    <ul id="category-roots"></ul>
+                </section>
+                <section class="category-column" aria-labelledby="category-level-two">
+                    <h2 id="category-level-two" class="visually-hidden">중분류</h2>
+                    <ul id="category-children"></ul>
+                </section>
+                <section class="category-column" aria-labelledby="category-level-three">
+                    <h2 id="category-level-three" class="visually-hidden">소분류</h2>
+                    <ul id="category-leaves"></ul>
+                </section>
+            </div>
+            <p id="common-category-selection" class="visually-hidden" role="status">아직 선택한 카테고리가 없습니다.</p>
+        </section>
+    </div>
+</div>

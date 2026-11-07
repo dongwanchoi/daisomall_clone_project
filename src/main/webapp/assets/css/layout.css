@@ -1,0 +1,113 @@
+.container {
+    width: min(var(--content-width), calc(100% - 48px));
+    margin-inline: auto;
+}
+.announcement {
+    color: #fff;
+    background: var(--color-ink);
+}
+.announcement-inner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.store-tools {
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 28px;
+}
+.header-main {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    min-height: 84px;
+}
+.navigation-shell {
+    position: relative;
+    z-index: 20;
+    border-bottom: 1px solid var(--color-line);
+}
+.main-navigation {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-height: 56px;
+    font-weight: 700;
+    font-family: var(--font-navigation);
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.4px;
+}
+.navigation-links, .delivery-links {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    white-space: nowrap;
+}
+.delivery-links {
+    margin-left: auto;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.navigation-links > * {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 56px;
+}
+.navigation-links .current::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: var(--color-ink);
+    content: "";
+}
+.category-anchor {
+    position: relative;
+}
+.home-content {
+    padding-block: 64px 48px;
+}
+.home-content h1 {
+    margin-bottom: 16px;
+    font-size: clamp(28px, 3vw, 40px);
+    line-height: 1.35;
+    letter-spacing: -1.5px;
+}
+.home-description {
+    color: var(--color-muted);
+    line-height: 1.8;
+}
+.site-footer {
+    padding-block: 40px;
+    color: var(--color-footer-text);
+    background: var(--color-ink);
+    font-size: 13px;
+    line-height: 1.4;
+}
+.footer-columns {
+    display: grid;
+    grid-template-columns: 2fr 0.8fr 1fr 1fr;
+    gap: 48px;
+    padding-bottom: 36px;
+}
+.site-footer h2 {
+    margin-bottom: 24px;
+    color: #fff;
+    font-size: 16px;
+}
+.footer-company {
+    padding-top: 28px;
+    border-top: 1px solid #3b4148;
+}
+.footer-company p {
+    margin-bottom: 8px;
+}

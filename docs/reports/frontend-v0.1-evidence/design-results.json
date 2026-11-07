@@ -1,0 +1,50 @@
+{
+    "categoryCounts": [
+        15,
+        128,
+        728
+    ],
+    "leaves": 730,
+    "viewports": [
+        {
+            "width": 1440,
+            "jspStatus": 200,
+            "overflow": false,
+            "consoleErrors": [],
+            "menuTests": "passed",
+            "hover": "root/middle/change/boundary/confirmation passed",
+            "keyboardFocus": "passed",
+            "localFonts": "loaded",
+            "reuseJsp": "passed",
+            "optionalComponents": "passed",
+            "activeNavigation": "home/ranking passed"
+        },
+        {
+            "width": 1280,
+            "jspStatus": 200,
+            "overflow": false,
+            "consoleErrors": [],
+            "menuTests": "passed",
+            "hover": "root/middle/change/boundary/confirmation passed",
+            "keyboardFocus": "passed",
+            "localFonts": "loaded",
+            "reuseJsp": "passed",
+            "optionalComponents": "passed",
+            "activeNavigation": "home/ranking passed"
+        },
+        {
+            "width": 390,
+            "jspStatus": 200,
+            "overflow": false,
+            "consoleErrors": [],
+            "menuTests": "passed",
+            "hover": "not applicable; tap passed",
+            "keyboardFocus": "passed",
+            "localFonts": "loaded",
+            "reuseJsp": "passed",
+            "optionalComponents": "passed",
+            "activeNavigation": "home/ranking passed"
+        }
+    ],
+    "failureRecovery": "503 error and retry passed"
+}

@@ -1,0 +1,44 @@
+<%@ page pageEncoding="UTF-8" %>
+<header class="site-header">
+    <div class="announcement">
+        <div class="container announcement-inner">
+            <span>새로 들어온 신상, 지금 확인하세요</span>
+            <div class="store-tools">
+                <button type="button" data-unavailable>매장 위치 찾기</button>
+                <button type="button" data-unavailable>매장 상품 찾기</button>
+            </div>
+        </div>
+    </div>
+    <div class="container header-main">
+        <a class="brand" href="${pageContext.request.contextPath}/" aria-label="다이소몰 클론 홈">
+            <span class="brand-symbol" aria-hidden="true">다<br>이소</span>
+            <span>다이소</span>
+        </a>
+        <form class="search-form" role="search" aria-label="상품 검색 (준비 중)">
+            <label class="visually-hidden" for="search-query">검색어</label>
+            <input id="search-query" type="search" name="query" maxlength="100" autocomplete="off" aria-describedby="search-help">
+            <button type="submit" aria-label="검색 (준비 중)"><span class="search-icon" aria-hidden="true"></span></button>
+        </form>
+        <span id="search-help" class="visually-hidden">검색 기능은 준비 중입니다.</span>
+        <button class="delivery-button" type="button" data-unavailable>배송이나 픽업 어때요? <span aria-hidden="true">⌄</span></button>
+        <div class="account-tools" aria-label="회원 메뉴">
+            <button type="button" data-member-route="login" data-unavailable>
+                <svg class="account-icon" aria-hidden="true"><use href="${pageContext.request.contextPath}/assets/images/icons.svg#login" /></svg>
+                <span class="account-label">로그인·회원</span>
+            </button>
+            <button type="button" data-member-route="mypage" data-unavailable>
+                <svg class="account-icon" aria-hidden="true"><use href="${pageContext.request.contextPath}/assets/images/icons.svg#user" /></svg>
+                <span class="account-label">마이페이지</span>
+            </button>
+            <button type="button" data-unavailable>
+                <svg class="account-icon" aria-hidden="true"><use href="${pageContext.request.contextPath}/assets/images/icons.svg#heart" /></svg>
+                <span class="account-label">찜한 상품</span>
+            </button>
+            <button type="button" data-shopping-route="cart" data-unavailable>
+                <svg class="account-icon" aria-hidden="true"><use href="${pageContext.request.contextPath}/assets/images/icons.svg#bag" /></svg>
+                <span class="account-label">장바구니</span>
+            </button>
+        </div>
+    </div>
+</header>
+<p id="common-feature-status" class="feature-status" role="status" aria-live="polite"></p>

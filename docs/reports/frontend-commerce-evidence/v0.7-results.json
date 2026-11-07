@@ -1,0 +1,49 @@
+{
+    "version": "0.7",
+    "viewports": [
+        {
+            "width": 1440,
+            "jsp": "passed",
+            "carousel": "passed",
+            "sharedNavigation": "passed",
+            "catalog": "passed",
+            "member": "passed",
+            "orders": "passed",
+            "admin": "passed",
+            "overflow": false,
+            "consoleErrors": []
+        },
+        {
+            "width": 1280,
+            "jsp": "passed",
+            "carousel": "passed",
+            "sharedNavigation": "passed",
+            "catalog": "passed",
+            "member": "passed",
+            "orders": "passed",
+            "admin": "passed",
+            "overflow": false,
+            "consoleErrors": []
+        },
+        {
+            "width": 390,
+            "jsp": "passed",
+            "carousel": "passed",
+            "sharedNavigation": "passed",
+            "catalog": "passed",
+            "member": "passed",
+            "orders": "passed",
+            "admin": "passed",
+            "overflow": false,
+            "consoleErrors": []
+        }
+    ],
+    "additional": {
+        "guestCartMerge": "passed",
+        "guestCheckout": "passed",
+        "orderOwnership": "passed",
+        "negativeQuantity": "passed",
+        "mockAdminGuard": "passed",
+        "seedErrorRecovery": "503 notice, category retry, page retry passed"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "members": [
+        {
+            "id": "member-demo",
+            "email": "demo@example.test",
+            "name": "체험 회원",
+            "phone": "010-0000-0000",
+            "role": "MEMBER",
+            "status": "ACTIVE"
+        },
+        {
+            "id": "admin-demo",
+            "email": "admin@example.test",
+            "name": "체험 관리자",
+            "phone": "010-0000-0000",
+            "role": "ADMIN",
+            "status": "ACTIVE"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "version": "0.6",
+    "viewports": [
+        {
+            "width": 1440,
+            "jsp": "passed",
+            "carousel": "passed",
+            "sharedNavigation": "passed",
+            "catalog": "passed",
+            "member": "passed",
+            "orders": "passed",
+            "overflow": false,
+            "consoleErrors": []
+        },
+        {
+            "width": 1280,
+            "jsp": "passed",
+            "carousel": "passed",
+            "sharedNavigation": "passed",
+            "catalog": "passed",
+            "member": "passed",
+            "orders": "passed",
+            "overflow": false,
+            "consoleErrors": []
+        },
+        {
+            "width": 390,
+            "jsp": "passed",
+            "carousel": "passed",
+            "sharedNavigation": "passed",
+            "catalog": "passed",
+            "member": "passed",
+            "orders": "passed",
+            "overflow": false,
+            "consoleErrors": []
+        }
+    ]
+}

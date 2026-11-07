@@ -1,0 +1,55 @@
+<%@ page pageEncoding="UTF-8" %>
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-columns">
+            <section class="customer-center">
+                <h2>고객센터</h2>
+                <dl>
+                    <div><dt>온라인 다이소몰</dt><dd>1599-2211</dd></div>
+                    <div><dt>매장</dt><dd>1522-4400</dd></div>
+                </dl>
+                <p>평일 09:00 ~ 18:00</p>
+                <div class="footer-links">
+                    <button type="button" data-shopping-route="orders" data-unavailable>주문조회</button>
+                    <button type="button" data-unavailable>취소/교환/반품 신청</button>
+                    <button type="button" data-unavailable>공지사항</button>
+                    <button type="button" data-unavailable>FAQ</button>
+                    <button type="button" data-unavailable>1:1 문의</button>
+                </div>
+            </section>
+            <section>
+                <h2>멤버십</h2>
+                <div class="footer-menu">
+                    <button type="button" data-unavailable>멤버십 소개</button>
+                    <button type="button" data-unavailable>포인트 적립/사용내역</button>
+                    <button type="button" data-unavailable>포인트 선물하기</button>
+                    <button type="button" data-unavailable>멤버십 패밀리</button>
+                </div>
+            </section>
+            <section>
+                <h2>회사소개</h2>
+                <div class="footer-menu">
+                    <a href="https://www.daiso.co.kr/company/greetings" target="_blank" rel="noopener noreferrer">기업 소개 ↗</a>
+                    <a href="https://www.daiso.co.kr/brand/story" target="_blank" rel="noopener noreferrer">국민가게, 다이소 ↗</a>
+                    <a href="https://www.daiso.co.kr/winwin/quality" target="_blank" rel="noopener noreferrer">경영이념 ↗</a>
+                    <a href="https://www.daiso.co.kr/talent/talent_image" target="_blank" rel="noopener noreferrer">인재채용 ↗</a>
+                </div>
+            </section>
+            <section class="footer-project">
+                <h2>다이소몰 클론</h2>
+                <p>학습용 프론트엔드 프로젝트</p>
+                <p>실제 쇼핑 서비스가 아닙니다.</p>
+                <p>고객센터 정보는 레퍼런스 기준입니다.</p>
+            </section>
+        </div>
+        <div class="footer-company">
+            <div class="legal-links">
+                <button type="button" data-unavailable>이용약관</button>
+                <button type="button" data-unavailable><strong>개인정보처리방침</strong></button>
+            </div>
+            <p>(주)아성다이소 · 사업자등록번호 213-81-52063</p>
+            <p>참고 사이트 표기: Copyright (c) 2023 DAISO. All Rights Reserved.</p>
+            <p>체험용 쇼핑몰 · 회원·상품·주문은 Mock으로 동작하며 실제 결제와 배송은 발생하지 않습니다.</p>
+        </div>
+    </div>
+</footer>
